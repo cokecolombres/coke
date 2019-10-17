@@ -48,7 +48,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 html { height: 100%; background-color: #fff; overflow: hidden; }
 body { font-family: 'Open Sans', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #777777; overflow: hidden; height: 100%; width: 100%; }
-body .main-container { background-color: #fff; height: calc(100% - 0px); height: -webkit-calc(100% - 0px); height: -moz-calc(100% - 0px); position: relative; z-index: 3; }
+body .main-container { background-color: #EAEDED; height: calc(100% - 0px); height: -webkit-calc(100% - 0px); height: -moz-calc(100% - 0px); position: relative; z-index: 3; }
 body .wrapper { position: relative; height: 100%; width: 100%; }
 a, .button { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #333333; }
 a:focus { text-decoration: none; }
@@ -84,9 +84,9 @@ blockquote { border-left: 5px solid gray; font-size: 16px; }
 /*---------------------------------------------------------------------
                                 Loader
 -----------------------------------------------------------------------*/
-#loading { background-color: #fff; height: 100%; width: 100%; position: fixed; margin-top: 0px; top: 0px; left: 0px; bottom: 0px; overflow: hidden !important; right: 0px; z-index: 999999; }
+#loading { background-color: #232f3e; height: 100%; width: 100%; position: fixed; margin-top: 0px; top: 0px; left: 0px; bottom: 0px; overflow: hidden !important; right: 0px; z-index: 999999; }
 #loading-center { width: 100%; height: 100%; position: relative; }
-[data-loader='spinner'] { width: 50px; height: 50px; margin: auto; left: 0; right: 0; top: 0; bottom: 0;  position: absolute;  -webkit-animation: spinner 1.2s infinite ease-in-out; -o-animation: spinner 1.2s infinite ease-in-out; animation: spinner 1.2s infinite ease-in-out; background-color: #fff; }
+[data-loader='spinner'] { width: 50px; height: 50px; margin: auto; left: 0; right: 0; top: 0; bottom: 0;  position: absolute;  -webkit-animation: spinner 1.2s infinite ease-in-out; -o-animation: spinner 1.2s infinite ease-in-out; animation: spinner 1.2s infinite ease-in-out; background-color: #febd69; }
 @-webkit-keyframes spinner {
   0% { -webkit-transform: perspective(120px) rotateX(0) rotateY(0); -ms-transform: perspective(120px) rotateX(0) rotateY(0); -o-transform: perspective(120px) rotateX(0) rotateY(0); transform: perspective(120px) rotateX(0) rotateY(0); }
   50% { -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0); -ms-transform: perspective(120px) rotateX(-180deg) rotateY(0); -o-transform: perspective(120px) rotateX(-180deg) rotateY(0); transform: perspective(120px) rotateX(-180deg) rotateY(0); }
@@ -407,6 +407,9 @@ Margin Right
 .dark-bg { background: #333333; }
 .grey-bg { background: #fbfbfb; }
 .purple-bg { background: rgba(28, 202, 162, 1); background: -moz-linear-gradient(left, rgba(28, 202, 162, 1) 0%, rgba(49, 209, 129, 1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28, 202, 162, 1)), color-stop(100%, rgba(49, 209, 129, 1))); background: -webkit-linear-gradient(left, rgba(28, 202, 162, 1) 0%, rgba(49, 209, 129, 1) 100%); background: -o-linear-gradient(left, rgba(28, 202, 162, 1) 0%, rgba(49, 209, 129, 1) 100%); background: -ms-linear-gradient(left, rgba(28, 202, 162, 1) 0%, rgba(49, 209, 129, 1) 100%); background: linear-gradient(to right, rgba(28, 202, 162, 1) 0%, rgba(49, 209, 129, 1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1ccaa2', endColorstr='gray', GradientType=1); }
+.coke-bg { background: #232f3e; }
+.coke2-bg { background: #febd69; }
+.coke3-bg { background: #EAEDED }
 
 /*---------------------------------------------------------------------
                              BG Effect
@@ -563,7 +566,7 @@ footer .follow-us { padding: 10px 50px 10px 0; }
 .contact-info li i { display: table-cell; font-size: 20px; color: gray; }
 .contact-info li p { display: table-cell; font-size: 16px; padding-left: 10px; vertical-align: middle; }
 .iq-contact iframe { border: 0px; width: 100%; height: 480px; }
-.iq-get-in { position: relative; z-index: 9; background: #fff; }
+.iq-get-in { position: relative; z-index: 9; background: #EAEDED; }
 .contact-form .section-field { position: relative; width: 100%; float: left; }
 .contact-form .section-field input { position: relative; width: 100%; margin-bottom: 20px; border-radius: 0; padding-left: 20px; height: 48px; line-height: 48px; clear: both; color: #666; border: 1px solid #666; }
 .contact-form .section-field input:focus, .contact-form .section-field.textarea textarea:focus { border: 1px solid gray; box-shadow: none; outline: none; }
@@ -581,7 +584,7 @@ footer .follow-us { padding: 10px 50px 10px 0; }
 .iq-blog-meta { margin: 15px 0; }
 .blog-button { display: inline-block; width: 100%; border-top: 1px solid #ededed; padding: 15px 0 0; }
 .blog-button .iq-user i { font-size: 24px; margin-right: 10px; float: left; }
-.inner-box { background: #fff; padding: 20px 0 20px; border-top: 20px solid #fff; border-bottom: 20px solid #fff; margin-left: -180px; height: 650px; overflow: scroll; overflow: auto; }
+.inner-box { background: #EAEDED; padding: 20px 0 20px; border-top: 20px solid #EAEDED; border-bottom: 20px solid #EAEDED; margin-left: -180px; height: 650px; overflow: scroll; overflow: auto; }
 .nicescroll-cursors { background: gray !important; }
 
 /*---------------------------------------------------------------------
